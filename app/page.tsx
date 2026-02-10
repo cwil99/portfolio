@@ -89,7 +89,7 @@ export default function Home() {
                   <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm rounded-full">Tailwind</span>
                 </div>
                 <Link
-                  href="/fantasy-football-compare"
+                  href="/ffc"
                   className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium"
                 >
                   View Project
