@@ -82,18 +82,6 @@
             <p>"Avg. character error" is edit distance divided by word length: the share of characters that are wrong. The ensemble ties the mapped baseline on exact matches and is closer when it misses. The correct word is in its top three guesses 84.9% of the time.</p>
             <p>The model is strongest on Māori (88% exact) and weakest on Tongan (61%, below the baseline's 69%). Tongan kept a glottal stop and an <em>h</em> that most of the other languages lost, so the related words often don't show where they belong. Most other errors are near misses: about half are off by a single character. The model also tends to cut long or repeated words short, for example <code>kapakapa</code> → <code>kapaka</code>.</p>
         </section>
-
-        <!-- Team -->
-        <section class="prose">
-            <h2>Team</h2>
-            <ul class="team">
-                <li><strong>CJ Wilson</strong><span>Cognate table, baselines, seq2seq model, frontend</span></li>
-                <li><strong>Jyoti Mishra</strong><span>Model integration, ABVD dataset, prediction explanations, data exploration, cognate splits, linguistic preprocessing</span></li>
-                <li><strong>Misgana Tadele</strong><span>Data cleaning, spelling normalization, ensemble and beam search</span></li>
-                <li><strong>Anh Hoang</strong><span>Web app and frontend design</span></li>
-            </ul>
-        </section>
-
         <!-- Data credit (required by the ACD's CC-BY-4.0 license) -->
         <section class="prose">
             <h2>Data credit</h2>
