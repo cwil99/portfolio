@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -71,35 +69,6 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            {/* Fantasy Football Compare Project */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-gray-200 dark:border-slate-700 hover:shadow-xl transition-shadow">
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="text-2xl">🏈</span>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                    Fantasy Football Compare
-                  </h3>
-                </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Compare NFL players and predict fantasy points for the upcoming week. Built with Next.js, TypeScript, and Tailwind CSS.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm rounded-full">Next.js</span>
-                  <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm rounded-full">TypeScript</span>
-                  <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm rounded-full">Tailwind</span>
-                </div>
-                <Link
-                  href="/ffc"
-                  className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium"
-                >
-                  View Project
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-
             {/* Polynesian Language Reconstruction Project */}
             <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-gray-200 dark:border-slate-700 hover:shadow-xl transition-shadow">
               <div className="p-6">
